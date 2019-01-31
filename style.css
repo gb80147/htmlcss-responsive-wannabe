@@ -65,3 +65,24 @@ img{
 .clear {
   clear:both;
 }
+
+@media screen and (max-width: 600px){
+  h1 {
+    text-align: left;
+  }
+
+  #lezioni .row > .left, #lezioni .row > .right{
+    width: 51%
+  }
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    width: 51%;
+  }
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 51%;
+  }
+
+}
